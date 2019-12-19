@@ -19,6 +19,29 @@ background-color: #3498db;
 .ui-menu-color-download {
 background-color: #525252;
 }
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+.inline-block {
+    display: inline-block;
+}
+
 /**---------------------heading **/
 header {
     margin: 0;
@@ -60,6 +83,9 @@ header {
  visible as a single space between our items.The way to solve this is to create a container with the font-size of 0 so that the spaces are not displayed.*/
      font-size: 0;
  }
+ #nav {
+     margin: 0;
+ }
  #nav li {/*The problem is that means that all of our items will then have a font-size of 0, so we can no longer see them.
 We can override this by using our nav ID, targeting all the children lis and giving a font-size of 14px.*/
      font-size: 14px;
@@ -97,3 +123,53 @@ So 120 is a third of that overall height, which provides a kind of visual balanc
  letter-spacing: 2px;
 
  }
+/* Hover.css-----------------------------------*/
+ .hvr-sweep-to-bottom:before {
+     background-color: rgba(0,0,0, 0.2);
+     height: 120px;
+
+ }
+ /**---------------------footer **/
+
+ footer {
+     background: #525252;
+     color: #fafafa;
+     margin: 0;
+     min-height: 120px;
+ }
+ .cv-pdf i {
+     font-size: 18px;
+     padding-left: 5px;
+     color: #fafafa;
+     text-align: center;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+ }
+ .cv-pdf i:hover{
+  color: #e84610;
+  }
+  .social-link {
+      padding-bottom: 15px;
+  }
+  .social-link li a i {
+      padding: 12px 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 13px;
+      line-height: 7px;
+      text-align: center;
+      color: #fafafa;
+      background: 8f8f8f;
+      transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+  }
+  .social-link li a i:hover {
+     background: #e84610;
+  }
+
+     
