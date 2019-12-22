@@ -230,10 +230,23 @@ So 120 is a third of that overall height, which provides a kind of visual balanc
     font-weight: 700;
 }
 .personal-info-item .value {
-    position: relative; /** I'm setting the position to relative, too, because I want it to be relative to its predecessor.  **/
+    position: relative;
     width: 60%;
 }
 
+ /* ----------------------------------------skills */
 
-
+ .progress {
+     position: relative;
+     height: 25px;
+     margin-bottom: 4px;
+ }
+.progress-type {
+    position: absolute;
+    left: 0;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
 
