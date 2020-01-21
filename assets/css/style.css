@@ -299,3 +299,6 @@ So 120 is a third of that overall height, which provides a kind of visual balanc
     content: '';
     background: #fafafa;
 }
+.history-items {
+    margin-bottom: 30px;
+}
